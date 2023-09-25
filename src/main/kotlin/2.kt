@@ -8,11 +8,6 @@ fun main(args: Array<String>) {
     var count = 0;
     var itogStr = "";
     var currentChar = sorStr[0];
-    /*for(item in 1.. str.substring(1).length){
-        if(currentChar == str[item]){
-            count++;
-        }
-    }*/
 
     sorStr.forEach {
         if(it == currentChar)
