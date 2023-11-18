@@ -15,9 +15,7 @@ fun main(args: Array<String>) {
             count++;
         }else{
             itogStr += currentChar;
-            if(count > 1){
-                itogStr += count;
-            }
+            itogStr += count;
             i++;
             currentChar = it;
             count = 1;
